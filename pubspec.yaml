@@ -1,0 +1,60 @@
+name: double_v_partners_nyx_app
+description: "Prueba Técnica Flutter - Double V Partners NYX"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP requests
+  http: ^1.2.2
+
+  # Local Storage
+  shared_preferences: ^2.3.2
+
+  # Date picker
+  flutter_datetime_picker_plus: ^2.2.0
+
+  # Form validation
+  form_field_validator: ^1.1.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Animations
+  flutter_animate: ^4.5.0
+
+  # JSON serialization
+  json_annotation: ^4.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.12
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+        - asset: assets/fonts/Orbitron-Bold.ttf
+          weight: 700
