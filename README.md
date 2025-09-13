@@ -106,8 +106,8 @@ dev_dependencies:
 
 1. **Clonar el repositorio**
 ```bash
-git clone <repository-url>
-cd double_v_partners_nyx_app
+git clone https://github.com/Luisnefelibato/DOUBLE-V-PARTNERS-NYX-Prueba.git
+cd DOUBLE V PARTNERS NYX Prueba
 ```
 
 2. **Instalar dependencias**
